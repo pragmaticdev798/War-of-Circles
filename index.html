@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Cube Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="node_modules/@tensorflow/tfjs/dist/tf.min.js"></script>
+    <script src="node_modules/@tensorflow-models/handpose/dist/handpose.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
+</head>
+<body>
+    <div id="instructions">
+        <h1>I n s t r u c t i o n s</h1>
+        <p>Use hand gestures to move the white circle in different directions.</p>
+        <p>Once the white circle touches other colored circles, points will be added.</p>
+        <p>If the white circle touches the other white circle, the game will be over.</p>
+        <button id="startButton">Start Game</button>
+    </div>
+    <div id="game" style="display: none;">
+        <div id="box"></div>
+        <div id="container"></div>
+        <div id="pointsDisplay" style="position: absolute; top: 10px; right: 10px; color: white; font-size: 1.5rem;"></div>
+        <video id="video" style="display: none;" autoplay playsinline></video>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/handpose"></script> -->
+
+
+
+    
