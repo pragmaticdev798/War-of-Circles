@@ -1,4 +1,4 @@
-# Mini Cube Game
+# War of Balls
 
 Welcome to the Mini Cube Game! This is an interactive game where you control a white circle using hand gestures to collect points by touching colored circles while avoiding the white circle.
 
