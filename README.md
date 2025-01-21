@@ -24,7 +24,6 @@ Welcome to the Mini Cube Game! This is an interactive game where you control a w
 - HTML
 - CSS
 - JavaScript
-- TensorFlow.js
 - MediaPipe Hands
 
 ## Installation
