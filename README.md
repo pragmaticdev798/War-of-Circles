@@ -33,7 +33,7 @@ To run the game locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/hand-gesture-circle-game-tensorflow-js/mini-cube-game.git
+   git clone https://github.com/hand-gesture-circle-game/mini-cube-game.git
 
 
 
