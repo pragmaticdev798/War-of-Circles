@@ -1,4 +1,4 @@
-# War of Balls
+# War of Balls(circles)
 
 Welcome to the war of balls! This is an interactive game where you control a white circle using hand gestures to collect points by touching colored circles while avoiding the white circle.
 
